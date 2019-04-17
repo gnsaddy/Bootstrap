@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/bootstrap.css">
+    <script src="/jquery-3.4.0.slim.min.js"></script>
+    <script src="/bootstrap.js"></script>
+    <script src="/popper.min.js"></script>
+    <script src="/tooltip.min.js"></script>
+    <title>Nesting | Columns</title>
+    <style>
+        .nestedRowCol{
+            border: 1px solid red;
+            color: aqua
+        }
+        .col1{
+            border: 1px solid black;
+        }
+        .col2{
+            border: 5px solid grey
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col1">
+                <div class="row " >
+                    <div class="col-sm-4">
+                        div 1 nested
+                    </div>
+                    <div class="col-sm-4">
+                            div 1 nested
+                    </div>
+                    <div class="col-sm-4">
+                            div 1 nested
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col2">
+                    <div class="row " >
+                        <div class="col-sm-4">
+                            div 1 nested
+                        </div>
+                        <div class="col-sm-4">
+                                div 1 nested
+                        </div>
+                        <div class="col-sm-4">
+                                div 1 nested
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

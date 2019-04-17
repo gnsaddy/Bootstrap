@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="/bootstrap.css">
+      <script src="/jquery-3.4.0.slim.min.js"></script>
+      <script src="/bootstrap.js"></script>
+      <script src="/popper.min.js"></script>
+      <script src="/tooltip.min.js"></script>
+    <title>Override | class | Behaviour</title>
+    <style>
+        .containerClass{
+            border: 1px solid black;
+            background-color: bisque
+        }
+        .colClass{
+            border: 2px solid beige;
+        }
+    </style>
+</head>
+<body>
+    <div class="container containerClass">
+        <div class="row">
+            <div class="col-xs-4 col-md-4 col-xl-6 colClass">
+                Column first
+            </div>
+            <div class="col-xs-4 col-md-4 col-xl-6 colClass ">
+                Column second
+            </div>
+            <div class="col-xs-4 col-md-4 col-xl-6 colClass">
+                    Column third
+            </div>
+        </div>
+    </div>
+</body>
+</html>
