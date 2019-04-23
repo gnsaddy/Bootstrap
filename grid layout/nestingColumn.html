@@ -11,46 +11,39 @@
     <script src="/tooltip.min.js"></script>
     <title>Nesting | Columns</title>
     <style>
-        .nestedRowCol{
-            border: 1px solid red;
-            color: aqua
+        .sideContent{
+                margin: 10px;
+                min-height: 150px;
+                background-color: silver;
+                text-align: center;
+                font-size: large;
         }
-        .col1{
-            border: 1px solid black;
-        }
-        .col2{
-            border: 5px solid grey
+        .mainContent{
+                margin: 10px;
+                min-height: 320px;
+                background-color: silver;
+                text-align: center;
+                font-size: large;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-xl-6 col1">
-                <div class="row " >
-                    <div class="col-sm-4">
-                        div 1 nested
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="sideContent">Side bar 1</div>
                     </div>
-                    <div class="col-sm-4">
-                            div 1 nested
-                    </div>
-                    <div class="col-sm-4">
-                            div 1 nested
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="sideContent">Side bar 2</div>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-6 col2">
-                    <div class="row " >
-                        <div class="col-sm-4">
-                            div 1 nested
-                        </div>
-                        <div class="col-sm-4">
-                                div 1 nested
-                        </div>
-                        <div class="col-sm-4">
-                                div 1 nested
-                        </div>
-                    </div>
+            <div class="col-md-9">
+                <div class="mainContent">Main Content area</div>
             </div>
         </div>
     </div>

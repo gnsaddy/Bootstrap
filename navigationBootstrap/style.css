@@ -1,0 +1,78 @@
+body{
+    /* Location of the image */
+    background-image: url(/arduino-1128227_1920.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 0%;
+  }
+  .bold{
+      color: whitesmoke;
+      font-weight: 900;
+  }
+
+.colbdr{
+    margin-top: 10%;
+}
+.changeBG{
+    background-color: transparent;
+    border: 2px solid black;
+    height: 120px;
+    background-image: url(/iot1.gif);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 160%;
+    
+}
+.bodyCon{
+    margin-top: 8%;
+}
+
+.navbar-custom {
+    color: white;
+    background-color: lightskyblue;
+    padding: 0%;
+    margin: 0%;
+    height: max-content;
+    /* background-image: url(/iot2.gif);
+    background-attachment: scroll;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.navSpan{
+    align-content: center;
+    color: white;
+    margin-right: 18%;
+    padding: 0%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+
+.customLogo{
+    max-width: 300px;
+    max-height: 110px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    height: 5%;
+    font-weight: 900;
+    font-size: 20px;
+}
+  
+.jumbotron {
+    background-image: url(/arduino-1128227_1920.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   } 
